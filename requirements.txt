@@ -1,0 +1,5 @@
+streamlit
+pandas
+os
+streamlit_pandas_profiling
+pycaret
