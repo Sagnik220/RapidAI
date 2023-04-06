@@ -11,7 +11,6 @@ if os.path.exists('./dataset.csv'):
 
 
 with st.sidebar:
-    st.image("images\Rapidailogo.png",width=300)
     st.title("RapidAI")
     choose = st.radio("Options", ['Upload', 'Data Profiling', 'Model Building', 'Download'])
     st.info("Accelerate Insights, Empower Innovation: Unleash the Power of RapidAI")
