@@ -12,7 +12,7 @@ if os.path.exists('./dataset.csv'):
 
 with st.sidebar:
     st.title("RapidAI")
-    choose = st.radio("Options", ['Upload', 'Data Profiling', 'Model Building', 'Download'])
+    choose = st.radio("Options", ['Upload', 'Data Profiling', 'RapidML', 'Download'])
     st.info("Accelerate Insights, Empower Innovation: Unleash the Power of RapidAI")
 
 
@@ -32,7 +32,7 @@ if choose == "Data Profiling":
     profile_df = df_csv.profile_report()
     st_profile_report(profile_df)
 
-if choose == "Model Building":
+if choose == "RapidML":
 
     option = st.selectbox("Select your problem type",
                           ("Select an option", "Regression", "Classification"))
